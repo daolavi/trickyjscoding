@@ -1,0 +1,31 @@
+<div class='sq'>
+  <span class='cc'></span>
+</div>
+
+<div class='sq'>
+  <span class='cc'></span>
+</div>
+<style>
+.sq{
+  border: thin dashed red;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.sq:first-child{
+  margin-right:10px;
+}
+
+.cc{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+</style>
